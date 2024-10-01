@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableaux Positifs et Zéros</title>
+</head>
+<body>
+    <p>1. soit deux tableaux (tab1 et tab2) de nombre positif et negatif saisis par l'utilisateur :
+        Écrire un programme permettant de recopier dans tab3 tous les éléments positifs de tab1, 
+        et remplacer les éléments de tab2  par 
+        des zéros sans utiliser une boucle, et afficher les resultats dans le DOM</p>
+    <h1>Tableaux</h1>
+    <h2>Veillez saisir des nombres positifs et négatifs de préférence</h2>
+    <h3>Les nombres saisies doivent être separés que par de virgule 😛😛😛</h3>
+    <label for="tab1">Saisir dans tab1 :</label>
+    <input type="text" id="tab1" required><br><br>
+    <label for="tab2">Saisir dans tab2 :</label>
+    <input type="text" id="tab2" required><br><br>
+    <button id="submit">Envoyer</button>
+
+    <h2>Résultats :</h2>
+    <p>tab3 (éléments positifs de tab1) : <span id="outputTab3"></span></p>
+    <p>tab2 (remplacé par des zéros) : <span id="outputTab2"></span></p>
+
+    <script src="code.js">
+    </script>
+</body>
+</html>
